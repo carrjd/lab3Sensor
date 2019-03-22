@@ -3,8 +3,8 @@
 #include <ESP8266HTTPClient.h>
 #include <string.h>
  
-const char* ssid = "UnimatrixZero";
-const char* password = "novi145$";
+const char* ssid = "";
+const char* password = "";
 /*
 * Ultrasonic Sensor HC-SR04 and Arduino Tutorial
 * Modified by James Carr for WIMOS D1 Mini
@@ -16,7 +16,7 @@ const char* password = "novi145$";
 const int trigPin = 4;
 const int echoPin = 5;
 const int maxDist = 200;
-String ipAddr ="192.168.43.179"; //ip address of the light board
+String ipAddr =""; //ip address of the light board
 // defines variables
 long duration;
 int distance;
